@@ -1,0 +1,23 @@
+{
+    "name": "51systems/dext",
+    "description": "Dojo extension library",
+    "type": "library",
+    "keywords": [
+        "dojo"
+    ],
+    "homepage": "https://github.com/51systems/dext",
+    "authors": [
+        {
+            "name": "Dustin Thomson",
+            "email": "dthomson@51systems.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap" : ["Module.php"]
+    },
+    "bin": [
+    ]
+}
