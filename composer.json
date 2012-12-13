@@ -13,9 +13,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3",
+        "51systems/dojo-module": "dev-master"
     },
     "autoload": {
+        "psr-0": {
+            "Dext": "src/"
+        },
         "classmap" : ["Module.php"]
     },
     "bin": [
