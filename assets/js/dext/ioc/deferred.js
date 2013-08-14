@@ -1,7 +1,7 @@
 /**
  * Deferred handling for the ioc plugin.
  * Causes the plugin to wait until a promise has been resolved before returning.
- * 
+ *
  * Allows us to ensure that the required values have been registered prior to trying to retrieve them.
  */
 define([
