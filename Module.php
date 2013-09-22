@@ -30,6 +30,7 @@ class Module implements
     public function init(ModuleManagerInterface $moduleManager)
     {
         $moduleManager->loadModule('Dojo');
+        $moduleManager->loadModule('AsseticBundle');
     }
 
     /**
@@ -48,7 +49,7 @@ class Module implements
 
         $this->_registerDextAssets($assetManager);
 
-        /** @var $view Zend\View\RendererInterface */
+        /** @var $view \Zend\View\RendererInterface */
         $view = $serviceManager->get('viewmanager')->getRenderer();
 
         /**
