@@ -2,6 +2,7 @@
     "name": "51systems/dext",
     "description": "Dojo extension library",
     "type": "library",
+    "license": "BSD-3-Clause",
     "keywords": [
         "dojo"
     ],
@@ -14,15 +15,15 @@
     ],
     "require": {
         "php": ">=5.3",
-        "51systems/dojo-module": "dev-dojo2",
-        "widmogrod/zf2-assetic-module": "1.*"
+
+        "zendframework/zend-modulemanager": "~2",
+
+        "51systems/dojo-module": "dev-zf3",
+        "widmogrod/zf2-assetic-module": "~2"
     },
     "autoload": {
-        "psr-0": {
-            "Dext": "src/"
-        },
-        "classmap" : ["Module.php"]
-    },
-    "bin": [
-    ]
+        "psr-4": {
+            "Dext\\": "src/"
+        }
+    }
 }
