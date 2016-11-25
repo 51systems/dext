@@ -18,8 +18,7 @@
 
         "zendframework/zend-modulemanager": "~2",
 
-        "51systems/dojo-module": "dev-zf3",
-        "widmogrod/zf2-assetic-module": "~2"
+        "51systems/dojo-module": "dev-zf3"
     },
     "autoload": {
         "psr-4": {
